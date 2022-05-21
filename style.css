@@ -1,0 +1,345 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 60px;
+}
+
+/* Wrapper */
+.wrapper {
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: url('images/home_header_bg.png') #17191C no-repeat top center;
+    background-size: 100% auto;
+    filter: grayscale(50%);
+}
+
+.wrapper__content {
+    width: 1024px;
+    margin: auto;
+}
+
+header {
+    padding-top: 20px;
+}
+
+header .header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* header */
+header nav {
+    justify-content: center;
+    flex-grow: 1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 5px 20px;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+}
+
+/* Header Contacts */
+header .contacts a {
+    font-size: 26px;
+    line-height: 30px;
+    align-items: center;
+    color: #fff;
+}
+
+header .contacts .contacts__info {
+    text-align: right;
+    color: #fff;
+}
+
+/* Quiz-box */
+.logo  {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* main */
+main .hello {
+    margin-top: 10vh;
+    display: block;
+    max-width: 100%;
+    width: 50vw;
+    color: #fff;
+}
+
+main .hello .hello__subtitle {
+    margin-bottom: 20px;;
+}
+
+main .hello a.button {
+    background: #8F00FF;
+    border-radius: 5px; 
+    padding: 10px 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* novinki nedeli */
+section.novelties {
+    width: 100%;
+    color: #fff;
+    margin-top: 10vh;
+}
+
+.novelties .novelties__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.novelties .novelties__list li {
+    display: inline-block;
+    width: 30%;
+    margin-right: 4%;
+}
+.novelties .novelties__list li:last-child {
+    margin-right: 0%;
+}
+
+.novelties .noveltie__content {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+}
+
+.novelties .noveltie__img {
+    max-width: 100%;
+}
+
+.novelties .noveltie__content h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.novelties .button {
+    border: 1px solid #8F00FF;
+    border-radius: 5px;
+    color: #8F00FF;
+    padding: 7px 15px;
+}
+
+.novelties .button:hover {
+    background-color: #8F00FF;
+    color: #fff;
+}
+
+/* past games */
+section.past-games {
+    margin-top: 80px;
+    color: #fff;
+}
+
+.past-games .past-games__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.past-games .past-games__list li {
+    display: inline-block;
+    width: 48%;
+    margin-right: 3.5%;
+}
+.past-games .past-games__list li:last-child {
+    margin-right: 0;
+}
+
+.past-games .past-games__list li.image_1 {
+    background: url(images/past_game_01.png) no-repeat top center;
+    background-size: 100% auto;
+    height: 400px;
+    padding: 20px;
+    padding-top: 180px;
+    vertical-align: bottom;
+}
+
+.past-games .past-games__list li.image_2 {
+    background: url(images/past_game_02.png) no-repeat top center;
+    background-size: 100% auto;
+    height: 400px;
+    padding: 20px;
+    padding-top: 180px;
+    vertical-align: bottom;
+}
+
+.past-games .paginator {
+    text-align: center;
+}
+
+.past-games .paginator ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.past-games .paginator ul li {
+    display: inline-block;
+}
+
+.past-games .paginator ul li.paginator__item {
+    border-radius: 20px;
+}
+
+.past-games .paginator ul li.paginator__item:hover {
+    background-color: #8F00FF;
+}
+
+.past-games .paginator ul li {
+    padding: 3px 10px;
+}
+
+.past-games .paginator ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.past-games .paginator ul li:first-child {
+    margin-right: 15px;
+}
+
+/* about us */
+.about {
+    margin-top: 80px;
+}
+
+.about .about__content {
+    display: inline-block;
+}
+
+.about .about__content img {
+    max-width: 100%;
+    margin-top: -340px;
+}
+
+.about .about__content:first-child {
+    width: 40%;
+}
+
+.about .about__content:last-child {
+    width: 69%;
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+    color: #fff;
+    padding: 60px;
+    margin-left: -10%;
+    margin-top: 100px;
+}
+
+.about .about__content:last-child h3 {
+    margin-bottom: 50px;
+}
+
+.about .about__content:last-child .about__text {
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+.about .about__content:last-child .about__button button {
+    background: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    margin-top: 80px;
+}
+
+footer .container {
+    
+}
+
+footer .container .footer__block {
+    display: inline-block;
+}
+
+footer .container .footer__block.block1 {
+    width: 25%;
+}
+
+footer .container .footer__block.block2 {
+    width: 34%;
+    text-align: center;
+}
+
+footer .container .footer__block.block2 nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container .footer__block.block2 nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 25px;
+}
+
+footer .container .footer__block.block2 nav ul li a {
+    color: #fff;
+}
+
+footer .container .footer__block.block3 {
+    width: 15%;
+}
+
+footer .container .footer__block.block3 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container .footer__block.block3 ul li {
+    display: inline-block;
+}
+
+footer .container .footer__block.block4 {
+    width: 25%;
+    text-align: right;
+    color: #FFF;
+}
+
+footer .container .footer__block.block4 .contacts__info {
+    
+    font-size: 10px;
+    color: #666;
+}
+
+footer .container .footer__block.block4 a.contacts__tel {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
